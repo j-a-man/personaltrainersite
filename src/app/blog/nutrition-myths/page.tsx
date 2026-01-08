@@ -35,7 +35,7 @@ export default function NutritionPage() {
                     </div>
                 </header>
 
-                <div className="aspect-[21/9] rounded-3xl overflow-hidden mb-12 border border-white/10 shadow-2xl shadow-primary/5">
+                <div className="aspect-21/9 rounded-3xl overflow-hidden mb-12 border border-white/10 shadow-2xl shadow-primary/5">
                     <img
                         src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1200&q=80"
                         alt="Healthy Food"

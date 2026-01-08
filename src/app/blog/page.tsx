@@ -52,7 +52,7 @@ export default function BlogPage() {
                     {articles.map((article, index) => (
                         <Link href={`/blog/${article.slug}`} key={article.slug} className="group relative flex flex-col h-full bg-zinc-900 rounded-2xl overflow-hidden border border-white/10 hover:border-primary/50 transition-all duration-300 hover:shadow-2xl hover:shadow-primary/10 hover:-translate-y-1">
                             {/* Image */}
-                            <div className="aspect-[16/9] overflow-hidden relative">
+                            <div className="aspect-video overflow-hidden relative">
                                 <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors z-10" />
                                 <img
                                     src={article.image}
@@ -65,7 +65,7 @@ export default function BlogPage() {
                             </div>
 
                             {/* Content */}
-                            <div className="p-6 flex flex-col flex-grow">
+                            <div className="p-6 flex flex-col grow">
                                 <div className="flex items-center gap-4 text-xs text-gray-500 mb-4">
                                     <div className="flex items-center gap-1">
                                         <User className="w-3 h-3" />
@@ -79,7 +79,7 @@ export default function BlogPage() {
                                 <h2 className="text-2xl font-bold text-white mb-3 group-hover:text-primary transition-colors line-clamp-2">
                                     {article.title}
                                 </h2>
-                                <p className="text-gray-400 text-sm leading-relaxed mb-6 flex-grow line-clamp-3">
+                                <p className="text-gray-400 text-sm leading-relaxed mb-6 grow line-clamp-3">
                                     {article.excerpt}
                                 </p>
                                 <div className="flex items-center text-primary font-bold text-sm uppercase tracking-wider group/link">

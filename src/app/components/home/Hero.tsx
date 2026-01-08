@@ -78,7 +78,7 @@ export function Hero() {
                         <Button
                             size="lg"
                             className="rounded-xl px-8 bg-zinc-900 border border-white/10 hover:bg-zinc-800 text-white flex gap-2 group font-sans normal-case tracking-normal"
-                            onClick={() => window.location.href = '#transformation'}
+                            onClick={() => window.location.href = '/quiz'}
                         >
                             Start seeing results
                             <span className="bg-white/10 rounded-full p-0.5 group-hover:bg-white/20 transition-colors">

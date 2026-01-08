@@ -37,7 +37,7 @@ export default function HypertrophyPage() {
                 </header>
 
                 {/* Main Image */}
-                <div className="aspect-[21/9] rounded-3xl overflow-hidden mb-12 border border-white/10 shadow-2xl shadow-primary/5">
+                <div className="aspect-21/9 rounded-3xl overflow-hidden mb-12 border border-white/10 shadow-2xl shadow-primary/5">
                     <img
                         src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1200&q=80"
                         alt="Weight Training"

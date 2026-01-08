@@ -76,6 +76,95 @@ export default function AboutPage() {
                     </p>
                 </div>
             </section>
+
+            {/* Contact Section */}
+            <section className="bg-zinc-900 border-t border-white/5 py-24 relative overflow-hidden">
+                <div className="max-w-7xl mx-auto px-6 lg:px-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
+                        {/* Contact Info */}
+                        <div className="space-y-8">
+                            <h2 className="text-4xl font-display font-bold text-white">Contact Us</h2>
+                            <div className="space-y-6 text-gray-300">
+                                <div>
+                                    <h3 className="text-white font-bold mb-2 text-xl">Head Coach</h3>
+                                    <p>Patrick D.</p>
+                                </div>
+                                <div>
+                                    <h3 className="text-white font-bold mb-2 text-xl">Location</h3>
+                                    <p>2111 Hillside Ave.</p>
+                                    <p>New Hyde Park, NY 11040</p>
+                                </div>
+                                <div>
+                                    <h3 className="text-white font-bold mb-2 text-xl">Contact</h3>
+                                    <p>Phone: (516) 253-1387</p>
+                                    <p>Email: UniversalFitClub@gmail.com</p>
+                                </div>
+                                <div>
+                                    <h3 className="text-white font-bold mb-2 text-xl">Hours</h3>
+                                    <ul className="space-y-1">
+                                        <li>Thursday: 6:30–10 PM</li>
+                                        <li>Friday: Closed</li>
+                                        <li>Saturday: 6:30–11:30 AM</li>
+                                        <li>Sunday: 6:30–10 PM</li>
+                                        <li>Monday: 6:30–10 PM</li>
+                                        <li>Tuesday: 6:30–10 PM</li>
+                                        <li>Wednesday: 6:30–10 PM</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Contact Form */}
+                        <div className="bg-black/50 p-8 rounded-3xl border border-white/10 backdrop-blur-sm">
+                            <h3 className="text-2xl font-bold text-white mb-6">Send us a message</h3>
+                            <form className="space-y-4">
+                                <div>
+                                    <label htmlFor="name" className="block text-sm font-medium text-gray-400 mb-1">Name</label>
+                                    <input
+                                        type="text"
+                                        id="name"
+                                        className="w-full bg-zinc-800 border-none rounded-xl px-4 py-3 text-white focus:ring-2 focus:ring-primary"
+                                        placeholder="Your name"
+                                    />
+                                </div>
+                                <div>
+                                    <label htmlFor="email" className="block text-sm font-medium text-gray-400 mb-1">Email</label>
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        className="w-full bg-zinc-800 border-none rounded-xl px-4 py-3 text-white focus:ring-2 focus:ring-primary"
+                                        placeholder="your@email.com"
+                                    />
+                                </div>
+                                <div>
+                                    <label htmlFor="subject" className="block text-sm font-medium text-gray-400 mb-1">Subject</label>
+                                    <input
+                                        type="text"
+                                        id="subject"
+                                        className="w-full bg-zinc-800 border-none rounded-xl px-4 py-3 text-white focus:ring-2 focus:ring-primary"
+                                        placeholder="How can we help?"
+                                    />
+                                </div>
+                                <div>
+                                    <label htmlFor="message" className="block text-sm font-medium text-gray-400 mb-1">Message</label>
+                                    <textarea
+                                        id="message"
+                                        rows={4}
+                                        className="w-full bg-zinc-800 border-none rounded-xl px-4 py-3 text-white focus:ring-2 focus:ring-primary"
+                                        placeholder="Tell us more..."
+                                    />
+                                </div>
+                                <button
+                                    type="submit"
+                                    className="w-full bg-primary text-black font-bold py-3 rounded-xl hover:bg-primary/90 transition-colors uppercase tracking-wide"
+                                >
+                                    Send Message
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
     );
 }

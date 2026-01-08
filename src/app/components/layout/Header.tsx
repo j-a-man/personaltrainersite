@@ -24,7 +24,11 @@ export function Header() {
                 aria-label="Global"
             >
                 <div className="flex lg:flex-1">
-                    <Link href="/" className="-m-1.5 p-1.5 flex items-center gap-2">
+                    <Link
+                        href="/"
+                        className="-m-1.5 p-1.5 flex items-center gap-2"
+                        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                    >
                         <span className="font-display text-xl font-bold tracking-wider text-white">
                             UNIVERSAL <span className="text-primary">FITNESS</span>
                         </span>
@@ -46,6 +50,11 @@ export function Header() {
                             key={item.name}
                             href={item.href}
                             className="text-sm font-semibold leading-6 text-gray-300 hover:text-primary transition-colors uppercase tracking-wide font-sans"
+                            onClick={() => {
+                                if (item.href === '/') {
+                                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                                }
+                            }}
                         >
                             {item.name}
                         </Link>

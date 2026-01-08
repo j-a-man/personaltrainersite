@@ -1,20 +1,16 @@
 import type { Metadata } from "next";
-import { Outfit } from "next/font/google";
+import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
-
-const outfit = Outfit({
-  variable: "--font-outfit",
-  subsets: ["latin"],
-});
-
-export const metadata: Metadata = {
-  title: "Universal Fitness Club",
-  description: "Elite personal training and nutrition coaching.",
-};
-
+import { Chatbot } from "./components/Chatbot";
 import { Header } from "./components/layout/Header";
 
-// ... existing imports
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit" });
+
+export const metadata: Metadata = {
+  title: "Universal Fitness",
+  description: "Personal training and nutrition coaching",
+};
 
 export default function RootLayout({
   children,
@@ -22,13 +18,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body
-        className={`${outfit.variable} antialiased bg-background text-foreground font-sans`}
-        suppressHydrationWarning
-      >
+    <html lang="en" className="scroll-smooth">
+      <body className={`${inter.variable} ${outfit.variable} font-sans bg-black text-white antialiased`}>
         <Header />
         {children}
+        <Chatbot />
       </body>
     </html>
   );
