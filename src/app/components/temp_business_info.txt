@@ -1,0 +1,7 @@
+const BUSINESS_INFO = {
+    hours: "Monday-Wednesday: 5 AM–10 PM, Thursday: 5 AM–10 PM, Friday: 5 AM–9 PM, Saturday: 7 AM–7 PM, Sunday: 7 AM–5 PM.",
+    location: "465 Jericho Tpke, Mineola, NY 11501",
+    phone: "(516) 513-0139",
+    email: "UniversalFitClub@gmail.com",
+    contact: "You can reach Josh at the number or email provided."
+};

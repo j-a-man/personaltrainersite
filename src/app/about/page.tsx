@@ -21,7 +21,7 @@ export default function AboutPage() {
                         Driven by <span className="text-white">Results.</span>
                     </h1>
                     <p className="text-xl text-gray-400 max-w-3xl mx-auto font-light leading-relaxed">
-                        Universal Fitness Club wasn't founded to sell supplements or quick fixes. It was born from a frustration with the fitness industry's noise. We exist to provide clarity, community, and coaching that actually works.
+                        Pivot Gym wasn't founded to sell supplements or quick fixes. It was born from a frustration with the fitness industry's noise. We exist to provide clarity, community, and coaching that actually works.
                     </p>
                 </motion.div>
             </section>
@@ -69,10 +69,10 @@ export default function AboutPage() {
                 <h2 className="text-3xl font-display font-bold text-white mb-8">The Origin Story</h2>
                 <div className="prose prose-invert prose-lg mx-auto text-gray-400">
                     <p>
-                        It started in a garage gym with a single squat rack. Patrick realized that most people weren't failing because they lacked effort; they were failing because they lacked a <strong>plan</strong>.
+                        It started in a garage gym with a single squat rack. Josh realized that most people weren't failing because they lacked effort; they were failing because they lacked a <strong>plan</strong>.
                     </p>
                     <p>
-                        After helping hundreds of clients manually, we decided to scale that philosophy. Universal Fitness matches the intimacy of 1-on-1 coaching with the scalability of digital tools. We are not an algorithm. We are coaches, powered by technology.
+                        After helping hundreds of clients manually, we decided to scale that philosophy. Pivot Gym matches the intimacy of 1-on-1 coaching with the scalability of digital tools. We are not an algorithm. We are coaches, powered by technology.
                     </p>
                 </div>
             </section>
@@ -87,23 +87,23 @@ export default function AboutPage() {
                             <div className="space-y-6 text-gray-300">
                                 <div>
                                     <h3 className="text-white font-bold mb-2 text-xl">Head Coach</h3>
-                                    <p>Patrick D.</p>
+                                    <p>Josh</p>
                                 </div>
                                 <div>
                                     <h3 className="text-white font-bold mb-2 text-xl">Location</h3>
-                                    <p>2111 Hillside Ave.</p>
-                                    <p>New Hyde Park, NY 11040</p>
+                                    <p>465 Jericho Tpke</p>
+                                    <p>Mineola, NY 11501</p>
                                 </div>
                                 <div>
                                     <h3 className="text-white font-bold mb-2 text-xl">Contact</h3>
-                                    <p>Phone: (516) 253-1387</p>
+                                    <p>Phone: (516) 513-0139</p>
                                     <p>Email: UniversalFitClub@gmail.com</p>
                                 </div>
                                 <div>
                                     <h3 className="text-white font-bold mb-2 text-xl">Hours</h3>
                                     <ul className="space-y-1">
                                         <li>Thursday: 6:30–10 PM</li>
-                                        <li>Friday: Closed</li>
+                                        <li>Tuesday: 5 AM–10 PM</li>
                                         <li>Saturday: 6:30–11:30 AM</li>
                                         <li>Sunday: 6:30–10 PM</li>
                                         <li>Monday: 6:30–10 PM</li>

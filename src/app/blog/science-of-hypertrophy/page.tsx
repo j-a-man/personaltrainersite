@@ -23,7 +23,7 @@ export default function HypertrophyPage() {
                     <div className="flex flex-wrap items-center gap-6 text-sm text-gray-400 border-b border-white/10 pb-8">
                         <div className="flex items-center gap-2">
                             <User className="w-4 h-4 text-primary" />
-                            <span>Patrick D., Head Coach</span>
+                            <span>Josh, Head Coach</span>
                         </div>
                         <div className="flex items-center gap-2">
                             <Clock className="w-4 h-4 text-primary" />
@@ -79,7 +79,7 @@ export default function HypertrophyPage() {
 
                     <h3 className="text-2xl font-bold text-white mb-4">Conclusion</h3>
                     <p>
-                        A well-rounded program hits all three of these mechanisms. If you're only chasing 1-rep maxes (Tension) or only chasing the pump (Stress), you're leaving gains on the table. At Universal Fitness, we periodize your training to maximize each pathway without burning you out.
+                        A well-rounded program hits all three of these mechanisms. If you're only chasing 1-rep maxes (Tension) or only chasing the pump (Stress), you're leaving gains on the table. At Pivot Gym, we periodize your training to maximize each pathway without burning you out.
                     </p>
                 </div>
 

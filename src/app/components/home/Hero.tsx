@@ -71,7 +71,7 @@ export function Hero() {
                     </h1>
 
                     <p className="mt-6 text-xl leading-8 text-gray-300 font-sans max-w-2xl text-left">
-                        Universal Fitness training and nutrition, built around your life by certified experts.
+                        Pivot Gym training and nutrition, built around your life by certified experts.
                     </p>
 
                     <div className="mt-10 flex items-center justify-start gap-x-6">

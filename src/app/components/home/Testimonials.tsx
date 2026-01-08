@@ -6,7 +6,7 @@ import { Star } from "lucide-react";
 
 const testimonials = [
     {
-        content: "Universal Fitness Club changed my life. The data-driven approach allowed me to break through plateaus I've been stuck at for years.",
+        content: "Pivot Gym changed my life. The data-driven approach allowed me to break through plateaus I've been stuck at for years.",
         author: "John Doe",
         handle: "@johndoe",
         role: "Software Engineer",
