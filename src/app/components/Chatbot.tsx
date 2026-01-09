@@ -14,11 +14,11 @@ interface Message {
 }
 
 const BUSINESS_INFO = {
-    hours: "Monday-Wednesday: 6:30–10 PM, Thursday: 6:30–10 PM, Saturday: 6:30–11:30 AM, Sunday: 6:30–10 PM. We are closed on Fridays.",
-    location: "465 Jericho Tpke, Mineola, NY 11501",
-    phone: "(516) 513-0139",
+    hours: "Monday: 8:30 AM–8:30 PM, Tuesday: 6:30 AM–8:30 PM, Wednesday: 8:30 AM–8:30 PM, Thursday: 6:30 AM–8:30 PM, Friday: 8:30 AM–7:30 PM, Saturday: 9:30 AM–12:30 PM. We are closed on Sundays.",
+    location: "222 Jericho Tpke, Floral Park, NY 11001",
+    phone: "(917) 517-6616",
     email: "UniversalFitClub@gmail.com",
-    contact: "You can reach Josh at the number or email provided."
+    contact: "You can reach Joe at the number or email provided."
 };
 
 const FAQ_KNOWLEDGE_BASE = {
@@ -37,8 +37,9 @@ const FAQ_KNOWLEDGE_BASE = {
     "quiz": "You can start your journey by taking our quiz! Just ask me to 'take the quiz'.",
     "start": "You can start your journey by taking our quiz! Just ask me to 'take the quiz'.",
     "blog": "Check out our blog for the latest fitness tips and science-based articles.",
-    "patrick": `Josh is our head coach. ${BUSINESS_INFO.contact}`,
-    "josh": `Josh is our head coach. ${BUSINESS_INFO.contact}`,
+    "patrick": `Joe is our head coach. ${BUSINESS_INFO.contact}`,
+    "josh": `Joe is our head coach. ${BUSINESS_INFO.contact}`,
+    "joe": `Joe is our head coach. ${BUSINESS_INFO.contact}`,
 };
 
 export function Chatbot() {
@@ -46,7 +47,7 @@ export function Chatbot() {
     const [messages, setMessages] = useState<Message[]>([
         {
             id: '1',
-            text: "Hi! I'm the Pivot Gym assistant. How can I help you today?",
+            text: "Hi! I'm the Legacy Strength assistant. How can I help you today?",
             sender: 'bot',
             timestamp: new Date()
         }
@@ -79,7 +80,7 @@ export function Chatbot() {
 
         // Simulate bot thinking
         setTimeout(() => {
-            let botResponseText = "I'm not sure about that. Could you please call us at (516) 513-0139 for more specific questions?";
+            let botResponseText = "I'm not sure about that. Could you please call us at (917) 517-6616 for more specific questions?";
 
             // Navigation Commands
             if (userInput.includes("quiz") || userInput.includes("start")) {
@@ -145,7 +146,7 @@ export function Chatbot() {
                                 <Bot size={18} />
                             </div>
                             <div>
-                                <h3 className="font-bold text-white text-sm">Pivot Assistant</h3>
+                                <h3 className="font-bold text-white text-sm">Legacy Assistant</h3>
                                 <p className="text-xs text-green-400 flex items-center gap-1">
                                     <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
                                     Online

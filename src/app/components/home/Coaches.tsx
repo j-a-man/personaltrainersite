@@ -25,12 +25,12 @@ export function Coaches() {
                             <div className="absolute inset-0 bg-primary/10 mix-blend-multiply z-10" />
                             <img
                                 src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80"
-                                alt="Head Coach Josh"
+                                alt="Head Coach Joe"
                                 className="absolute inset-0 w-full h-full object-cover"
                             />
                             {/* Decorative Badge */}
                             <div className="absolute bottom-8 left-8 z-20 bg-white/80 backdrop-blur-md border border-white/40 p-4 rounded-xl shadow-lg">
-                                <p className="text-zinc-900 font-bold text-lg">Josh</p>
+                                <p className="text-zinc-900 font-bold text-lg">Joe</p>
                                 <p className="text-primary text-sm uppercase tracking-wider">Head Performance Coach</p>
                             </div>
                         </div>
@@ -80,7 +80,7 @@ export function Coaches() {
 
                         <div className="pt-4">
                             <Button className="pl-8 pr-2 py-6 text-lg group bg-black text-white hover:bg-zinc-800 border-none">
-                                <span className="mr-4">Train with Josh</span>
+                                <span className="mr-4">Train with Joe</span>
                                 <span className="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center group-hover:bg-white text-white group-hover:text-black transition-all">
                                     <ArrowRight className="w-5 h-5" />
                                 </span>

@@ -5,7 +5,7 @@ const articles = [
     {
         title: "The Science of Hypertrophy",
         excerpt: "Understanding the mechanisms of muscle growth: mechanical tension, metabolic stress, and muscle damage.",
-        author: "Josh",
+        author: "Joe",
         readTime: "8 min read",
         category: "Training",
         image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80",

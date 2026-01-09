@@ -33,7 +33,7 @@ export function Footer() {
                 <div className="mt-10 flex flex-col items-center">
                     <div className="flex items-center gap-2 mb-4">
                         <span className="font-display text-2xl font-bold tracking-wider text-white">
-                            PIVOT <span className="text-primary">GYM</span>
+                            LEGACY <span className="text-primary">STRENGTH</span>
                         </span>
                     </div>
                     <p className="text-gray-400 text-sm leading-relaxed max-w-xs text-center">
@@ -41,7 +41,7 @@ export function Footer() {
                     </p>
                 </div>
                 <div className="border-t border-white/10 mt-12 pt-8 text-center text-sm text-gray-500">
-                    <p>&copy; {new Date().getFullYear()} Pivot Gym. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Legacy Strength. All rights reserved.</p>
                 </div>
             </div>
         </footer>

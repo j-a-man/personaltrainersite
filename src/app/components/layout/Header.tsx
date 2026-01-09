@@ -30,7 +30,7 @@ export function Header() {
                         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                     >
                         <span className="font-display text-xl font-bold tracking-wider text-white">
-                            PIVOT <span className="text-primary">GYM</span>
+                            LEGACY <span className="text-primary">STRENGTH</span>
                         </span>
                     </Link>
                 </div>

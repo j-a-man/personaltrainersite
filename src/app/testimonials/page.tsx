@@ -36,7 +36,7 @@ export default function TestimonialsPage() {
                     <CaseStudyCard
                         name="Sarah J."
                         role="Busy Professional"
-                        story="I tried everything—keto, paleo, crossfit. Nothing stuck because it didn't fit my 60-hour work week. The Pivot Gym protocol wasn't just a workout plan; it was a lifestyle design. I'm eating more than ever and dropping dress sizes."
+                        story="I tried everything—keto, paleo, crossfit. Nothing stuck because it didn't fit my 60-hour work week. The Legacy Strength protocol wasn't just a workout plan; it was a lifestyle design. I'm eating more than ever and dropping dress sizes."
                         beforeImage="https://images.unsplash.com/photo-1574680096141-1cddd32e0340?w=800&q=80"
                         afterImage="https://images.unsplash.com/photo-1549476464-37392f717541?w=800&q=80"
                         stats={[

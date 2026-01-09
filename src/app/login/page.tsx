@@ -18,7 +18,7 @@ export default function LoginPage() {
                 <div className="text-center mb-8">
                     <Link href="/" className="inline-block mb-8">
                         <span className="font-display text-2xl font-bold tracking-wider text-white">
-                            PIVOT <span className="text-primary">GYM</span>
+                            LEGACY <span className="text-primary">STRENGTH</span>
                         </span>
                     </Link>
                     <h1 className="text-2xl font-bold text-white mb-2">Welcome Back.</h1>
